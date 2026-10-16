@@ -1,0 +1,17 @@
+{
+  "name": "digital-life",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.33.2",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "experiment": "node scripts/experiment.mjs",
+    "replay": "node scripts/replay.mjs",
+    "dev": "node scripts/serve.mjs",
+    "stress": "node scripts/stress.mjs"
+  }
+}

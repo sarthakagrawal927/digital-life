@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Digital Life — new design directions</title>
+  <link rel="stylesheet" href="/design/v2/styles.css">
+</head>
+<body data-direction="a">
+  <div class="review-bar">
+    <span class="review-label">DESIGN STUDY <span>02</span></span>
+    <nav aria-label="Viewer design directions">
+      <a href="?direction=a" data-direction="a" aria-current="page"><b>A</b> Specimen bench</a>
+      <a href="?direction=b" data-direction="b"><b>B</b> Observatory</a>
+      <a href="?direction=c" data-direction="c"><b>C</b> Experiment ledger</a>
+    </nav>
+    <span class="review-note">Recorded data · interactive preview</span>
+  </div>
+  <main id="app" aria-busy="true"><p class="loading">Loading the recorded experiment…</p></main>
+  <script type="module" src="/design/v2/app.mjs"></script>
+</body>
+</html>

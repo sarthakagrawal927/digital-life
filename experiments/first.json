@@ -1,0 +1,9 @@
+{
+  "seeds": [1, 2, 3, 4, 5],
+  "evaluationSeeds": [101, 102, 103, 104, 105],
+  "ticks": 1000,
+  "instructionBudget": 1000000,
+  "sampleEvery": 25,
+  "snapshotEvery": 250,
+  "configuration": {}
+}

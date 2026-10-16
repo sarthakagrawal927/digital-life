@@ -1,0 +1,7 @@
+node_modules/
+results/
+.DS_Store
+.fleet-local/
+.fleet/
+.impeccable/
+CLAUDE.local.md
